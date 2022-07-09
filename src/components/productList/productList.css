@@ -36,3 +36,18 @@
     border-radius: 10px 10px 0px 0px;
     overflow: hidden;
 }
+
+@media screen and (max-width:480px) {
+
+    .pl {
+        padding: 10px;
+    }
+
+    .pl-texts {
+        width: 100%;
+    }
+
+    .pl-desc {
+        display: none;
+    }
+}

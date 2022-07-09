@@ -2,10 +2,6 @@ import React from 'react'
 import Product from '../product/Product'
 import './productList.css'
 import { products } from '../../data'
-import img1 from '../../img/porto1.png'
-import img2 from '../../img/porto2.png'
-import img3 from '../../img/sun.png'
-
 
 
 
@@ -17,13 +13,9 @@ const ProductList = () => {
                 <p className="pl-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus fugiat facere voluptas illo. Vel quam unde fuga distinctio deserunt est mollitia modi, molestias asperiores, cum, aperiam dolorem maiores commodi ea.</p>
             </div>
             <div className="pl-list">
-                <img src={img1} alt="" className='p' />
-                <img src={img2} alt="" className='p' />
-                <img src={img3} alt="" className='p' />
-
-                {/* {products.map(item => (
+                {products.map(item => (
                     <Product key={item.id} img={item.img} />
-                ))} */}
+                ))}
             </div>
         </div>
     )
