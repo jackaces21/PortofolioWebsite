@@ -35,6 +35,7 @@
     border: 2px solid rgb(243, 242, 242);
     border-radius: 10px 10px 0px 0px;
     overflow: hidden;
+<<<<<<< HEAD
 }
 
 @media screen and (max-width:480px) {
@@ -50,4 +51,6 @@
     .pl-desc {
         display: none;
     }
+=======
+>>>>>>> a58977127ed0e74f10a0b8463ab9102f99cbde9b
 }

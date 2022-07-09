@@ -47,6 +47,7 @@
     width: 120px;
     height: 120px;
     border-radius: 20px;
+<<<<<<< HEAD
 }
 
 @media screen and (max-width:480px) {
@@ -73,4 +74,6 @@
         padding: 20px;
 
     }
+=======
+>>>>>>> a58977127ed0e74f10a0b8463ab9102f99cbde9b
 }

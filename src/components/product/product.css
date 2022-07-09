@@ -12,8 +12,11 @@
     background-color: rgb(243, 242, 242);
     display: flex;
     align-items: center;
+<<<<<<< HEAD
     position: sticky;
     z-index: 2;
+=======
+>>>>>>> a58977127ed0e74f10a0b8463ab9102f99cbde9b
 }
 
 .p-circle {
@@ -26,6 +29,7 @@
 
 .p-img {
     width: 100%;
+<<<<<<< HEAD
     transition: all 10s ease;
 }
 
@@ -38,4 +42,6 @@
         width: 40%;
         height: 20vh;
     }
+=======
+>>>>>>> a58977127ed0e74f10a0b8463ab9102f99cbde9b
 }
